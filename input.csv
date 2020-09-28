@@ -1,0 +1,10 @@
+Reynolds_number, 1.13
+filter_size, 0.015
+solid_volume_fraction, 0.3
+grad_P, -5000
+slip_velocity, 0.1
+particle_diameter, 0.000075
+particle_density, 1500
+terminal_velocity, 0.21
+maximum_solid_volume_fraction, 0.64
+
