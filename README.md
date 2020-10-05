@@ -1,6 +1,7 @@
 This is a package to demonstrate drift flux prediction using neural network model in C++
 
-The model and implementation is part of the supplentary material to:
+The model and implementation is part of the supplentary material to the publication:
+
 Yundi Jiang, Xiao Chen, Jari Kolehmainen, Ioannis G. Kevrekidis, Ali Ozel, Sankaran Sundaresan, "Development of Data-Driven Filtered Drag Model for Industrial-Scale Fluidized Beds", Chemical Engineering Science
 
 The input variables are in `input.csv` file
