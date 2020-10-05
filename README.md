@@ -1,16 +1,23 @@
-A package to demonstrate drift flux prediction using neural network model 
+This is a package to demonstrate drift flux prediction using neural network model in C++
 
-The input variables are in input.csv
-NN_prediction.C has the main function that calls prediction subroutine and outputs a predicted drift flux
+The model and implementation is part of the supplentary material to:
+Yundi Jiang, Xiao Chen, Jari Kolehmainen, Ioannis G. Kevrekidis, Ali Ozel, Sankaran Sundaresan, "Development of Data-Driven Filtered Drag Model for Industrial-Scale Fluidized Beds", Chemical Engineering Science
+
+The input variables are in `input.csv` file
+
+`NN_prediction.C` has the main function that calls prediction subroutine and outputs a predicted drift flux
 
 
-To compile run the code:
-   g++-10 NN_prediction.C keras_model.C -o predicted.o
-   ./predicted.o
+To compile and run the code:
+   
+   `g++-10 NN_prediction.C keras_model.C -o predicted.o`
+   
+   `./predicted.o`
 
 
 The output should be printed as:
 
+```
 ---input variables ---
 Reynolds number: 1.13
 solid volume fraction: 0.3
@@ -25,3 +32,4 @@ dimless_slip_velocity: 0.47619
 Fr: 59.9388
 ---prediction ---
 prediction: -0.0111881 
+```
